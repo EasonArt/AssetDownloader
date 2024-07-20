@@ -1,4 +1,4 @@
-﻿# Dragalia Lost Asset Downloader
+﻿# Dragalia Lost Asset Downloader123
 
 ## Installation
 
