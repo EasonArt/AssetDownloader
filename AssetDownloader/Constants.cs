@@ -10,7 +10,8 @@ public static class Constants
     // Need this to estimate cloning progress -- GitHub does not report the total size of the download
     public const int RepoSizeBytes = 637685460;
 
-    public const string BaseUrl = "http://dragalialost.akamaized.net/dl/assetbundles/";
+    //public const string BaseUrl = "http://dragalialost.akamaized.net/dl/assetbundles/";
+    public const string BaseUrl = "https://cdn.minty.sbs/dl/assetbundles/";
     public const string Android = "Android";
     public const string Ios = "iOS";
 
