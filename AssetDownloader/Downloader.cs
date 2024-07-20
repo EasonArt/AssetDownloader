@@ -173,7 +173,7 @@ public class Downloader
             catch (Exception ex)
             {
                 await Console.Out.WriteLineAsync(
-                    $"Failed to download file {asset.DownloadPath} (reason: {ex.GetType().Name}). This download will be retried later."
+                    $"Failed to download file {_downloadClient.BaseAddress } {asset.DownloadPath} (reason: {ex.GetType().Name}). This download will be retried later."
                 );
 #if DEBUG // Runs if the app is built in 'Debug' mode
                 await Console.Out.WriteLineAsync($"{ex}");
