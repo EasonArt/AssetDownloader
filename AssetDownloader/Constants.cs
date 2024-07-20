@@ -11,7 +11,7 @@ public static class Constants
     public const int RepoSizeBytes = 637685460;
 
     //public const string BaseUrl = "http://dragalialost.akamaized.net/dl/assetbundles/";
-    public const string BaseUrl = "https://cdn.minty.sbs/dl/assetbundles/";
+    public const string BaseUrl = "https://minty.sbs/dl/assetbundles/";
     public const string Android = "Android";
     public const string Ios = "iOS";
 
